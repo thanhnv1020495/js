@@ -1,11 +1,13 @@
-const book = {
-  title: 'nguyen van a',
-  author: 'le van hai',
-  year: 1925,
+const person = {
+  name: 'jhon',
+  age: 30,
+  isEmployd: true,
 };
-const {title , author} = book;
-console.log(title);
-console.log(author);
+
+for(const key in person) {
+  console.log(`${key}: ${person[key]}`);
+  
+}
 
 
 
