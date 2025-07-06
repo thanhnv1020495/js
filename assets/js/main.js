@@ -1,13 +1,17 @@
-const person = {
-  name: 'jhon',
-  age: 30,
-  isEmployd: true,
+const course = {
+  title: 'JavaScript Pro',
+  info: {
+    url: 'https://fullstack.edu.vn',
+    description: 'JavaScript Basic, Advanced.',
+    keywords: 'js basic, js advanced'
+  }
 };
 
-for(const key in person) {
-  console.log(`${key}: ${person[key]}`);
-  
-}
+const {title , info: {keywords}} = course;
+console.log(title);
+console.log(keywords);
+
+
 
 
 
