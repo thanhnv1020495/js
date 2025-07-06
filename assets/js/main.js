@@ -1,15 +1,7 @@
-const course = {
-  title: 'JavaScript Pro',
-  info: {
-    url: 'https://fullstack.edu.vn',
-    description: 'JavaScript Basic, Advanced.',
-    keywords: 'js basic, js advanced'
-  }
-};
+const obj = {a: 1,  b: 2 , c: 3};
+console.log(Object.entries(obj));
+// cung cấp một cách thức để duyệt qua cả key và value của một object
 
-const {title , info: {keywords}} = course;
-console.log(title);
-console.log(keywords);
 
 
 
